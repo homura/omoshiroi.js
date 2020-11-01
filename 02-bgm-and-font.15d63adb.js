@@ -195,10 +195,10 @@ var t,n=arguments[3];!function(n){var e=n.Promise,o=e&&"resolve"in e&&"reject"in
 },{}],"myFm":[function(require,module,exports) {
 "use strict";var e=this&&this.__createBinding||(Object.create?function(e,t,r,i){void 0===i&&(i=r),Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[r]}})}:function(e,t,r,i){void 0===i&&(i=r),e[i]=t[r]}),t=this&&this.__exportStar||function(t,r){for(var i in t)"default"===i||Object.prototype.hasOwnProperty.call(r,i)||e(r,t,i)};Object.defineProperty(exports,"__esModule",{value:!0}),t(require("./main"),exports),t(require("./helper"),exports);
 },{"./main":"IszY","./helper":"h4AX"}],"DOUB":[function(require,module,exports) {
-module.exports="omoshiroi.js/HOT-GFGyoshoStd-E-2.c1127402.ttf";
+module.exports="/omoshiroi.js/HOT-GFGyoshoStd-E-2.c1127402.ttf";
 },{}],"pzss":[function(require,module,exports) {
-module.exports="omoshiroi.js/effect.0dca2b2a.mp3";
+module.exports="/omoshiroi.js/effect.0dca2b2a.mp3";
 },{}],"rgku":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("../src/sekiro"),t="HOT-GFGyosho Std E";Promise.all([e.loadFont(t,"url("+require("../src/sekiro/assets/HOT-GFGyoshoStd-E-2.ttf")+")"),e.loadSoundEffect(require("../src/sekiro/assets/effect.mp3"))]).then(function(r){r[0];var o=r[1],s=new e.SekiroDangerousPallet({bgm:o,text:{fontFamily:t}});document.body.appendChild(s.getView());var i=document.querySelector("#play");i.removeAttribute("disabled"),i.textContent="play",i.addEventListener("click",function(){s.play()})});
 },{"../src/sekiro":"myFm","../src/sekiro/assets/HOT-GFGyoshoStd-E-2.ttf":"DOUB","../src/sekiro/assets/effect.mp3":"pzss"}]},{},["rgku"], null)
-//# sourceMappingURL=omoshiroi.js/02-bgm-and-font.15d63adb.js.map
+//# sourceMappingURL=/omoshiroi.js/02-bgm-and-font.15d63adb.js.map

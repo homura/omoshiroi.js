@@ -197,4 +197,4 @@ var t,n=arguments[3];!function(n){var e=n.Promise,o=e&&"resolve"in e&&"reject"in
 },{"./main":"IszY","./helper":"h4AX"}],"IS1P":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("../src/sekiro"),r=new e.SekiroDangerousPallet,t=r.getView();document.body.appendChild(t),document.querySelector("#play").addEventListener("click",function(){r.play()});
 },{"../src/sekiro":"myFm"}]},{},["IS1P"], null)
-//# sourceMappingURL=omoshiroi.js/01-basic.fc1f8b45.js.map
+//# sourceMappingURL=/omoshiroi.js/01-basic.fc1f8b45.js.map
