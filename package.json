@@ -1,0 +1,29 @@
+{
+  "name": "omoshiroi.js",
+  "version": "0.0.1",
+  "description": "A meme producer library",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "example": "parcel serve -p 4404 examples/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "prettier": "2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/animejs": "^3.1.2",
+    "@types/css-font-loading-module": "^0.0.4",
+    "@types/howler": "^2.2.1",
+    "@types/lodash": "^4.14.162",
+    "@types/node": "^14.14.5",
+    "animejs": "^3.2.1",
+    "howler": "^2.2.1",
+    "lodash": "^4.17.20",
+    "pixi-filters": "^3.1.1",
+    "pixi-particles": "^4.3.0",
+    "pixi-sound": "^3.0.5",
+    "pixi.js": "^5.3.3"
+  }
+}
